@@ -1,0 +1,16 @@
+{
+  "name": "spotcheck-rules",
+  "version": "1.0.0",
+  "description": "Judge an x402 402 you already received, locally: terms sanity, listing match, network/asset/amount. No network calls, no dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test test/" },
+  "keywords": ["x402", "payments", "agents", "pre-payment-check", "usdc", "base"],
+  "author": "withgrokbot",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/withgrokbot/spotcheck-rules.git" },
+  "engines": { "node": ">=18" }
+}
